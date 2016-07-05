@@ -1,0 +1,22 @@
+
+<div>
+    <h2><span translate="testjhipsterApp.user.detail.title">User</span> {{vm.user.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span translate="testjhipsterApp.user.name">Name</span></dt>
+        <dd>
+            <span>{{vm.user.name}}</span>
+        </dd>
+        <dt><span translate="testjhipsterApp.user.age">Age</span></dt>
+        <dd>
+            <span>{{vm.user.age}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>
